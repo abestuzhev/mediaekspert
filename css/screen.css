@@ -767,3 +767,25 @@ footer {
   .footer_bottom-line p {
     text-align: center;
     margin: 0 auto; }
+
+/***slider-clients***/
+/**************************************************/
+@media screen and (max-width: 1070px) {
+  /* line 677, ../sass/screen.scss */
+  .container, .slider-4, .controls {
+    width: 95%; }
+
+  /* line 680, ../sass/screen.scss */
+  .header_nav_menu {
+    width: 95%; }
+
+  /* line 683, ../sass/screen.scss */
+  .header-site_wrap, .header-site_logo {
+    float: none; }
+
+  /* line 686, ../sass/screen.scss */
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */ } }
